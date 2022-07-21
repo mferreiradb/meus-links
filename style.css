@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: #35122E;
+}
+
+.conteudo {
+    margin: 10vh 50vw;
+}
+
+.div-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    height: 3rem;
+    width: 20rem;
+
+    margin-bottom: 15px;
+}
+
+a {
+    height: 3rem;
+    width: 20rem;
+    color: rgb(255, 255, 255) ;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0.3rem;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition:  1s;
+    transition:  filter 0.2s;
+}
+  
+  a:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+  }
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.meu-site {
+    background-color: #14323d;
+}
+
+.projeto {
+    background: radial-gradient(circle at 0% 100%, #405DE6 10%, #5851DB 15%, #833AB4, #E1306C);
+}
+
+.meu-site {
+    background-color: rgb(20, 50, 61);
+}
+
+.instagram {
+    background: radial-gradient(circle at 0% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+ /*background: radial-gradient(circle at 0% 107%, #f6e100b5 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);*/
+}
+
+.linkedin {
+    background-color: #0072b1;
+}
+
+.facebook {
+    background-color: #254486;
+}
+
+.github{
+    background-color: #171515 ;
+}
